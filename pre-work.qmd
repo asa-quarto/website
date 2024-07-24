@@ -1,5 +1,6 @@
 ---
 title: "Pre-workshop instructions"
+format: html
 ---
 
 Prior to the workshop, please complete the following steps:

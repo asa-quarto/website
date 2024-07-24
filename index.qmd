@@ -1,13 +1,13 @@
 ---
 title: "From R Markdown to Quarto"
-subtitle: "ASA Travelling Workshop, Northeastern Illinois Chapter"
+subtitle: "ASA Travelling Workshop, Nevada Chapter"
 format:
   html:
     toc: false
 ---
 
-> 8:00 am - 4:30 pm\
-> Friday, May 17, 2024
+> 9:00 am - 4:00 pm\
+> Friday, July 26, 2024
 
 Quarto is an open-source scientific and technical publishing system that offers multilingual programming language support to create dynamic and static documents, books, presentations, blogs, and other online resources. In this workshop, you will learn how to apply your reproducible authoring skills to the Quarto format and learn about new tools and workflows for authoring with Quarto in RStudio. You will learn to create static documents as well as slide presentations. The workshop will also introduce you to Quarto projects which you can use to build websites and write blogs and books. Finally, you will learn various ways to deploy and publish your Quarto projects on the web.
 
@@ -20,9 +20,9 @@ Quarto is an open-source scientific and technical publishing system that offers 
 
 | Time          | Module                              |
 |---------------|-------------------------------------|
-| 8:30 - 10:15   | [Hello Quarto](1-hello-quarto/)   |
-| 10:15 - 10:30   | 15 min break                               |
-| 10:30 - 12:15  | [Documents](2-documents/)         |
+| 9:00 - 10:30   | [Hello Quarto](1-hello-quarto/)   |
+| 10:30 - 10:45   | 15 min break                               |
+| 10:45 - 12:15  | [Documents](2-documents/)         |
 | 12:15 - 1:00  |  45 min lunch                     |
 
 : {tbl-colwidths="\[25,35\]"}
@@ -37,9 +37,10 @@ Quarto is an open-source scientific and technical publishing system that offers 
 
 | Time        | Module                              |
 |-------------|-------------------------------------|
-| 1:00 - 2:45  |  [Presentations](3-presentations/)      |
+| 1:00 - 1:30  |  [Documents II: Parameterized Docs](2-documents/2-documents.html#/parameterized-reports)      |
+| 1:30 - 2:45  |  [Presentations](3-presentations/)      |
 | 2:45 - 3:00 | 15 min break                               |
-| 3:00 - 4:25 | [Websites](4-websites/)           |
+| 3:00 - 4:00 | [Websites](4-websites/)           |
 
 : {tbl-colwidths="\[25,35\]"}
 

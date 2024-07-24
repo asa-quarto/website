@@ -4,10 +4,10 @@ project:
 website:
   page-navigation: true
   title: "From R Markdown to Quarto"
-  description: "ASA Traveling Workshop, Northeast Illinois Chapter"
+  description: "ASA Traveling Workshop, Nevada Chapter"
   repo-url: https://github.com/asa-quarto/website
   page-footer:
-    left: "&copy; Copyright 2024, Mine Çetinkaya-Rundel + Andrew Bray"
+    left: "&copy; Copyright 2024, Mine Çetinkaya-Rundel + Andrew Bray + Charlotte Wickham"
     center:
       - icon: github
         href: https://github.com/orgs/asa-quarto/repositories
@@ -40,10 +40,10 @@ website:
             text: Presentations
           - href: 4-websites/index.qmd
             text: Websites
-
+            
 format:
   html:
-    theme: 
+    theme:
       light: style/quarto-asa-light.scss
       dark: style/quarto-asa-dark.scss
     code-copy: true
@@ -51,7 +51,20 @@ format:
     mainfont: "Atkinson Hyperlegible"
     toc: false
   revealjs:
-    footer: "[andrew.quarto.pub/nic-asa](https://andrew.quarto.pub/nic-asa)"
+    author:
+      - "Mine Çetinkaya Rundel"
+      - "Andrew Bray"
+      - "Charlotte Wickham"
+    institute:
+      - "Duke University + Posit"
+      - "UC Berkeley"
+      - "Posit"
+    transition: fade
+    slide-number: true
+    chalkboard: false
+    logo: "../images/logo.png"
+    theme: style/slides.scss
+    footer: "[andrew.quarto.pub/nevada-asa](https://andrew.quarto.pub/nevada-asa)"
 
 execute:
   freeze: false

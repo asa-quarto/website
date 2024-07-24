@@ -1,20 +1,7 @@
 ---
 title: "Miscellaneous"
 subtitle: "From R Markdown to Quarto"
-footer: "[andrew.quarto.pub/ohio-asa](https://andrew.quarto.pub/ohio-asa)"
-format:
-  revealjs:
-    author:
-      - "Andrew Bray"
-      - "Mine Çetinkaya Rundel"
-    institute:
-      - "UC Berkeley"
-      - "Duke University + Posit"
-    transition: fade
-    slide-number: true
-    chalkboard: false
-    logo: "../images/logo.png"
-    theme: ../style/slides.scss
+format: revealjs
 ---
 
 ```{r}

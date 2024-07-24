@@ -1,5 +1,6 @@
 ---
 title: "Hello Quarto"
+format: html
 ---
 
 ## Slides

@@ -53,4 +53,6 @@ Mine Çetinkaya-Rundel is Professor of the Practice at Duke University and Devel
 
 Andrew Bray is an Associate Teaching Professor in the Department of Statistics at UC Berkeley, where he develops and teaches courses in statistics and data science. His research interests include statistical computing, data privacy, and applications of statistical models to environmental science. He is one of the authors of the infer R package for resampling based inference and an enthusiastic user of all things R Markdown / Quarto.
 
+[Charlotte Wickham](https://www.cwick.co.nz/) (she/her) is a Developer Educator at Posit. As part of her job at Posit, Charlotte helps to keep [quarto.org](http://quarto.org)—a website about, and also built with, Quarto—up to date. Prior to Posit, she taught Statistics and Data Science at Oregon State University where she received awards for her in-person and online teaching.
+
 The materials for this workshop were authored by Mine Çetinkaya-Rundel and Andrew Bray supported by the [ASA Traveling Course](https://community.amstat.org/coc/chapterresources/travelingcourse) program. This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).

@@ -609,7 +609,7 @@ head(penguins) |>
 The presence of the caption (`Blue penguin`) and label (`#fig-blue-penguin`) make this figure referenceable:
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="70%"}
 **Markdown:**
 
 ``` markdown
@@ -618,7 +618,7 @@ See @fig-blue-penguin for a cute blue penguin.
 ```
 :::
 
-::: {.column width="50%"}
+::: {.column width="30%"}
 **Output:**
 
 See @fig-blue-penguin for a cute blue penguin.

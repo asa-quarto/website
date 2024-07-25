@@ -91,7 +91,7 @@ Let's continue building our a presentation together from `hello-penguins-slides.
 
 . . .
 
-You can use someoneelse's template by running
+You can use someone else's template by running
 
 ```bash
 quarto add <github-accnt>/<repo-name>

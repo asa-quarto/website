@@ -78,14 +78,11 @@ usethis::use_course("https://tinyurl.com/nic-exercises")
 :::
 
 ::: {.column width="50%"}
-**Mine Çetinkaya-Rundel**
+**Charlotte Wickham**
 
--   Professor of the Practice\
-    Department of Statistical Science\
-    Duke University
 -   Developer Educator, Posit\
 -   R Markdown user for 11+ years\
--   Quarto user for 3+ years
+-   Quarto user for 2+ years
 :::
 
 :::

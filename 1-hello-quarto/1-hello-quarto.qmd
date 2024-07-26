@@ -22,7 +22,7 @@ While you wait for the workshop to begin, be sure you've got all the tools neede
 \
 
 ::: {style="font-size: 1.6em"}
-<https://andrew.quarto.pub/nic-asa>
+<https://andrew.quarto.pub/nevada-asa>
 :::
 
 \
@@ -35,7 +35,7 @@ In addition, please download and open the exercises for this session:
 #| eval: false
 #| echo: true
 
-usethis::use_course("https://tinyurl.com/nic-exercises")
+usethis::use_course("https://tinyurl.com/nevada-exercises")
 ```
 
 :::
@@ -171,7 +171,7 @@ install.packages(pkg_list)
 ```{r}
 #| eval: false
 
-usethis::use_course("https://tinyurl.com/nic-exercises")
+usethis::use_course("https://tinyurl.com/nevada-exercises")
 ```
 
 :::

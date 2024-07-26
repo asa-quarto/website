@@ -32,7 +32,7 @@ Download and open the exercises for this session. The easiest way is to run this
 ```{r}
 #| eval: false
 
-usethis::use_course("https://tinyurl.com/nic-exercises")
+usethis::use_course("https://tinyurl.com/nevada-exercises")
 ```
 
 If that doesn't work, you can download a zip file of the exercises [here](https://github.com/quarto-asa/exercises), then open the directory. The qmd files can be opened in RStudio.

@@ -8,11 +8,14 @@ Note that there are five types of callouts, including: `note`, `warning`, `impor
 :::
 
 ::: callout-tip
-This should be an example of a callout with a caption. So add a caption!
+This should be an example of a callout with a caption.
+So add a caption!
 :::
 
 ::: callout-caution
 ## Expand To Learn About Collapse
 
-This should be an example of a "folded" caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default. Try adding these to attributes.
+This should be an example of a "folded" caution callout that can be expanded by the user.
+You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
+Try adding these to attributes.
 :::

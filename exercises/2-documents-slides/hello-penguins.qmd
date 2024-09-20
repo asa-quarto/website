@@ -1,7 +1,6 @@
 ---
 title: "Hello, Penguins!"
 format: html
-editor: visual
 ---
 
 ## Data
@@ -11,7 +10,6 @@ For this analysis we'll use the penguins dataset from the palmerpenguins package
 ```{r}
 #| label: load-packages
 #| message: false
-
 library(tidyverse)
 library(ggthemes)
 library(palmerpenguins)
@@ -27,7 +25,6 @@ The figure below is a bar plot of species of penguins.
 #| warning: false
 #| fig-width: 5
 #| fig-asp: 0.618
-
 ggplot(
   penguins,
   aes(
@@ -47,7 +44,6 @@ The table below shows the first 10 penguins from the dataset.
 
 ```{r}
 #| label: penguins-top10
-
 penguins |>
   slice_head(n = 10) |>
   select(species, island, bill_length_mm, bill_depth_mm) |>

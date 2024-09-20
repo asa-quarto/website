@@ -17,8 +17,7 @@ See @tbl-restaurants for some restaurants I like:
 
 2.  Include the R logo and the Quarto logo from the `images/` folder as subfigures of a single figure.
 
-::: {#fig-logos layout-ncol=2}
-
+::: {#fig-logos layout-ncol="2"}
 ![R Logo](images/r-logo.png)
 
 ![Quarto Logo](images/quarto-logo.png)
@@ -42,4 +41,3 @@ library(palmerpenguins)
 ggplot(penguins, aes(x = species, fill = species)) +
   geom_bar(show.legend = FALSE)
 ```
-

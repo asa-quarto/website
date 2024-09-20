@@ -34,7 +34,7 @@ website:
           - href: 1-rmarkdown-quarto/index.qmd
             text: From R Markdow to Quarto
           - href: 2-documents-slides/index.qmd
-            text: Documents and Slides
+            text: Documents and slides
       - text: "---"
       - section: "In the Afternoon"
         contents:

@@ -25,19 +25,6 @@ options(width = 65)
 
 \
 
-::: your-turn
-
-In addition, please download and open the exercises for this session:
-
-```{r}
-#| eval: false
-#| echo: true
-
-usethis::use_course("https://bit.ly/cincinnati-exercises")
-```
-
-:::
-
 ## Code of Conduct {.smaller}
 
 > The American Statistical Association (ASA) is committed to providing an atmosphere in which personal respect and intellectual growth are valued and the free expression and exchange of ideas are encouraged. Consistent with this commitment, it is the policy of the ASA that all participants in ASA activities enjoy a welcoming environment free from unlawful discrimination, harassment, and retaliation. We strive to be a community that welcomes and supports people of all backgrounds and identities. This includes, but is not limited to, members of any race, ethnicity, culture, national origin, color, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion, and mental and physical ability.
@@ -157,13 +144,13 @@ I'll **teach** you
 
 ```r
 pkg_list <- c(
-  "tidyverse", "gt", "ggthemes", "palmerpenguins", 
-  "quarto", "here", "usethis"
+  "tidyverse", "gt", "ggthemes", 
+  "palmerpenguins", "quarto", "here"
   )
 install.packages(pkg_list)
 ```
 
-**3. Exercises:** Download [`exercises.zip`](exercises.zip) at and unzip it on your Desktop or somewhere you can easily locate on your computer.
+**3. Exercises:** Download `exercises.zip` (linked from Setup instructions) and unzip it on your Desktop or somewhere you can easily locate on your computer.
 
 :::
 

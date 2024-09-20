@@ -9,9 +9,9 @@ Prior to the workshop, please complete the following steps:
 
 Download and install the latest versions of R, RStudio, and Quarto:
 
--   R 4.2.3 or above: <https://cran.r-project.org>
--   RStudio 2023.09.0+448 or above: <https://posit.co/download/rstudio-desktop>
--   Quarto 1.4 or above: <https://quarto.org/docs/get-started>
+- R 4.4.1 or above: <https://cran.r-project.org>
+- RStudio 2024.04.2+764 or above: <https://posit.co/download/rstudio-desktop>
+- Quarto 1.5.57: <https://quarto.org/docs/get-started>
 
 #### 2. R Packages
 
@@ -19,9 +19,10 @@ Install the following packages:
 
 ```{r}
 #| eval: false
-
-pkg_list <- c("tidyverse", "gt", "ggthemes", "palmerpenguins", 
-              "quarto", "here", "usethis")
+pkg_list <- c(
+  "tidyverse", "gt", "ggthemes", 
+  "palmerpenguins", "quarto", "here"
+  )
 install.packages(pkg_list)
 ```
 

@@ -6,7 +6,7 @@ $font-family: "Atkinson Hyperlegible", sans-serif;
 
 $primary-color: #b61e2e;
 $secondary-color: #000000;
-$link-color: $secondary-color;
+$link-color: $primary-color;
 $hover-color: lighten($link-color, 10%);
 $sidebar-bg: $primary-color;
 

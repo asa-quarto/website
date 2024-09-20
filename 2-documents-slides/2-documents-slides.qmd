@@ -857,7 +857,7 @@ In places like markdown, YAML, or the command line/shell/terminal, you'll need t
 
 . . .
 
--   Absolute = BAD: `"/Users/mine/quarto-asa-nebraska"` - Whose computer will this work on?
+-   Absolute = BAD: `"/Users/mine/quarto-asa-cincinnati"` - Whose computer will this work on?
 
 . . .
 

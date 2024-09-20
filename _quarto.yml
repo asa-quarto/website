@@ -26,8 +26,8 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - href: pre-work.qmd
-        text: Pre-work
+      - href: setup.qmd
+        text: Setup
       - text: "---"
       - section: "In the Morning"
         contents:

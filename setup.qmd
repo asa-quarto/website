@@ -1,5 +1,5 @@
 ---
-title: "Pre-workshop instructions"
+title: "Setup instructions"
 format: html
 ---
 

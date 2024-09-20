@@ -400,12 +400,11 @@ Ordered list:
 ## Your turn
 
 ::: your-turn
--   Skim the previous slides. Share one new that's new to you with your neighbor.
 -   Open `markdown-syntax.qmd` in RStudio.
 -   Follow the instructions in the document.
 :::
 
-{{< countdown minutes=8 >}}
+{{< countdown minutes=5 >}}
 
 ## Divs and spans {.smaller}
 

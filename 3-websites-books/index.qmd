@@ -1,0 +1,12 @@
+---
+title: "Creating websites and books with Quarto"
+format: html
+---
+
+## Slides
+
+[View slides in full screen](3-websites-books.html)
+
+```{=html}
+<iframe class="slide-deck" src="3-websites-books.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```

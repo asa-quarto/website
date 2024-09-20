@@ -1,0 +1,221 @@
+---
+title: "Websites and books"
+subtitle: "From R Markdown to Quarto"
+format: revealjs
+---
+
+## Before we move on...Publishing
+
+``` {.yaml filename="Terminal"}
+quarto publish hello-penguins.qmd
+```
+
+## Open the next module
+
+::: your-turn
+
+Launch the project in `3a-websites`.
+
+:::
+
+# Anatomy of a Quarto project
+
+## Quarto projects
+
+-   Quarto projects have a `_quarto.yml` file
+
+-   The `type` field in this file indicates the type of project:
+
+    -   `default`: Collection of documents
+
+    -   `website`: Websites (and blogs)
+
+    -   `books`: Books 😃
+
+## Our turn
+
+::: our-turn
+Let's build a website together from all of the documents we've created so far and highlight the following features of Quarto websites:
+
+-   `_quarto.yml`
+
+-   `index.qmd` / landing page
+
+-   Navigation: `left` and `right` under `navbar`; `contents` under `sidebar`.
+
+-   Themes and dark theme toggle
+
+-   Publishing: `quarto publish`
+:::
+
+## Our turn: Code snippets
+
+::: columns
+::: column
+``` {.yaml filename="_quarto.yml"}
+project:
+  type: website
+
+website:
+  title: "default"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+```
+:::
+
+::: column
+``` {.markdown filename="index.qmd"}
+---
+title: "default"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+```
+:::
+:::
+
+## Your turn
+
+::: your-turn
+
+Go back to the project in `3a-websites`.
+
+------------------------------------------------------------------------
+
+Pick up where we left off and
+
+-   Add an [about page](https://quarto.org/docs/websites/website-about.html).
+-   Look at the [`_quarto.yml` for the workshop site](https://github.com/mine-cetinkaya-rundel/quarto-jsm24/blob/main/_quarto.yml). Find something you like and add it to your site.
+:::
+
+{{< countdown minutes=15 >}}
+
+# Wrap up
+
+## Freeze {.smaller}
+
+::: incremental
+-   The `freeze` option controls when/if computational documents be re-rendered during a global project render:
+
+    -   
+
+        ``` yaml
+           execute:
+             freeze: true # never re-render during project render
+        ```
+
+    -   
+
+        ``` yaml
+           execute:
+             freeze: auto  # re-render when source file changes
+        ```
+
+    -   
+
+        ``` yaml
+          execute:
+            freeze: false  # always re-render
+        ```
+
+-   The `freeze` option is typically added to a `_metadata.yml` file within a specific directory, affecting all files in that directory.
+
+-   For blogs, set `freeze` in `_metadata.yml` at the root of the `posts` directory.
+
+-   You can have it only within specific subdirectories for more complex sites.
+:::
+
+## Freeze vs. cache
+
+-   Cache stores the results of computations for a specific file.
+
+-   Cache invalidation is triggered by changes in chunk source code (or other cache attributes you've defined).
+
+-   `cache` can also be set at the chunk level.
+    Consider using the cache for computationally expensive chunks.
+
+## Publishing
+
+See <https://quarto.org/docs/publishing> for publishing options other than Quarto Pub.
+
+# Books
+
+## Quarto books
+
+-   Books and websites are very similar in that they associate multiple pages/resources into a connected resource
+
+::: columns
+::: column
+Website
+
+``` {.yaml filename="_quarto.yml"}
+project:
+  type: website
+
+website: 
+  navbar:
+    left:
+      - index.qmd
+      - hello-penguins.qmd
+```
+:::
+
+::: column
+Book
+
+``` {.yaml filename="_quarto.yml"}
+project:
+  type: book
+
+book: 
+  chapters:
+    - index.qmd
+    - hello-penguins.qmd
+```
+:::
+:::
+
+## Our turn
+
+::: our-turn
+Let's build a book together from all of the documents we've created so far and highlight the following features of Quarto books:
+
+-   `_quarto.yml`
+
+-   `index.qmd` / landing page / change landing page
+
+-   Add a PDF version
+
+-   Cross references
+
+-   Sections
+:::
+
+## Your turn
+
+::: your-turn
+
+Launch the project in `3b-books`.
+
+------------------------------------------------------------------------
+
+Pick up where we left off and
+
+-   Give a [title](https://quarto.org/docs/books/book-structure.html#overview) to your book.
+-   Try [dividing the chapters in to Parts](https://quarto.org/docs/books/book-structure.html#parts-appendices)
+-   Cross reference a figure (e.g. the one in `tables-figures.qmd`) from another chapter.
+:::
+
+{{< countdown 10:00 >}}
+
+# Wrap up
+
+## Questions
+
+::: task
+Any questions / anything you'd like to review before we wrap up this module?
+:::

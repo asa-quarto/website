@@ -1,0 +1,13 @@
+---
+title: "Creating computational documents and slides with Quarto"
+format: html
+---
+
+## Slides
+
+[View slides in full screen](2-documents-slides.html)
+
+```{=html}
+<iframe class="slide-deck" src="2-documents-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+

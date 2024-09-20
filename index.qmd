@@ -1,13 +1,13 @@
 ---
 title: "From R Markdown to Quarto"
-subtitle: "ASA Travelling Workshop, Nevada Chapter"
+subtitle: "ASA Travelling Workshop, Cincinnati Chapter"
 format:
   html:
     toc: false
 ---
 
-> 9:00 am - 4:00 pm\
-> Friday, July 26, 2024
+> 10:00 am - 16:45 pm\
+> Friday, September 20, 2024
 
 Quarto is an open-source scientific and technical publishing system that offers multilingual programming language support to create dynamic and static documents, books, presentations, blogs, and other online resources. In this workshop, you will learn how to apply your reproducible authoring skills to the Quarto format and learn about new tools and workflows for authoring with Quarto in RStudio. You will learn to create static documents as well as slide presentations. The workshop will also introduce you to Quarto projects which you can use to build websites and write blogs and books. Finally, you will learn various ways to deploy and publish your Quarto projects on the web.
 
@@ -18,12 +18,12 @@ Quarto is an open-source scientific and technical publishing system that offers 
 
 #### Producing a Single Document with Quarto
 
-| Time          | Module                              |
-|---------------|-------------------------------------|
-| 9:00 - 10:30   | [Hello Quarto](1-hello-quarto/)   |
-| 10:30 - 10:45   | 15 min break                               |
-| 10:45 - 12:15  | [Documents](2-documents/)         |
-| 12:15 - 1:00  |  45 min lunch                     |
+| Time          | Module                                      |
+|---------------|---------------------------------------------|
+| 10:00 - 11:30 | [R Markdown to Quarto](1-rmarkdown-quarto/) |
+| 11:30 - 11:45 | Break                                       |
+| 11:45 - 12:30 | [Documents and slides](2-documents-slides/) |
+| 12:30 - 13:30 | Lunch                                       |
 
 : {tbl-colwidths="\[25,35\]"}
 
@@ -35,12 +35,11 @@ Quarto is an open-source scientific and technical publishing system that offers 
 
 #### Producing Presentations and Websites
 
-| Time        | Module                              |
-|-------------|-------------------------------------|
-| 1:00 - 1:30  |  [Documents II: Parameterized Docs](2-documents/2-documents.html#/parameterized-reports)      |
-| 1:30 - 2:45  |  [Presentations](3-presentations/)      |
-| 2:45 - 3:00 | 15 min break                               |
-| 3:00 - 4:00 | [Websites](4-websites/)           |
+| Time          | Module                                 |
+|---------------|----------------------------------------|
+| 13:30 - 15:00 | [Websites and book](3-websites-books/) |
+| 15:10 - 15:15 | Break                                  |
+| 15:15 - 16:45 | [Manuscripts](4-manuscripts/)          |
 
 : {tbl-colwidths="\[25,35\]"}
 
@@ -49,10 +48,10 @@ Quarto is an open-source scientific and technical publishing system that offers 
 
 ## Instructor
 
-Mine Çetinkaya-Rundel is Professor of the Practice at Duke University and Developer Educator at RStudio. Mine’s work focuses on innovation in statistics and data science pedagogy, with an emphasis on computing, reproducible research, student-centered learning, and open-source education as well as pedagogical approaches for enhancing retention of women and under-represented minorities in STEM. Mine is a Fellow of the ASA and Elected Member of the ISI as well as the winner of the 2021 Robert V. Hogg Award for For Excellence in Teaching Introductory Statistics.
+[Mine Çetinkaya-Rundel](https://mine-cr.com) is Professor of the Practice at Duke University and Developer Educator at RStudio. Mine’s work focuses on innovation in statistics and data science pedagogy, with an emphasis on computing, reproducible research, student-centered learning, and open-source education as well as pedagogical approaches for enhancing retention of women and under-represented minorities in STEM. Mine is a Fellow of the ASA and Elected Member of the ISI as well as the winner of the 2021 Robert V. Hogg Award for For Excellence in Teaching Introductory Statistics.
 
 Andrew Bray is an Associate Teaching Professor in the Department of Statistics at UC Berkeley, where he develops and teaches courses in statistics and data science. His research interests include statistical computing, data privacy, and applications of statistical models to environmental science. He is one of the authors of the infer R package for resampling based inference and an enthusiastic user of all things R Markdown / Quarto.
 
 [Charlotte Wickham](https://www.cwick.co.nz/) (she/her) is a Developer Educator at Posit. As part of her job at Posit, Charlotte helps to keep [quarto.org](http://quarto.org)—a website about, and also built with, Quarto—up to date. Prior to Posit, she taught Statistics and Data Science at Oregon State University where she received awards for her in-person and online teaching.
 
-The materials for this workshop were authored by Mine Çetinkaya-Rundel and Andrew Bray supported by the [ASA Traveling Course](https://community.amstat.org/coc/chapterresources/travelingcourse) program. This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+The materials for this workshop were authored by the authors and  supported by the [ASA Traveling Course](https://community.amstat.org/coc/chapterresources/travelingcourse) program. This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).

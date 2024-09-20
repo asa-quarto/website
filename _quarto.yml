@@ -1,20 +1,22 @@
 project:
   type: website
-
+  resources:
+    - exercises.zip
+  render:
+    - "*.qmd"
+    - "!exercises/"
+  
 website:
   page-navigation: true
   title: "From R Markdown to Quarto"
-  description: "ASA Traveling Workshop, Nevada Chapter"
+  description: "ASA Traveling Workshop, cincinnati Chapter"
+  
   repo-url: https://github.com/asa-quarto/website
-  page-footer:
-    left: "&copy; Copyright 2024, Mine Çetinkaya-Rundel + Andrew Bray + Charlotte Wickham"
-    center:
-      - icon: github
-        href: https://github.com/orgs/asa-quarto/repositories
-    right: "This page is built with 💛 and [Quarto](https://quarto.org/)."
+  repo-actions: [edit, issue]
+ 
   open-graph: true
+  
   sidebar:
-    background: "#FEEEB6"
     logo: "images/logo.png"
     pinned: true
     align: center
@@ -29,17 +31,26 @@ website:
       - text: "---"
       - section: "In the Morning"
         contents:
-          - href: 1-hello-quarto/index.qmd
-            text: Hello Quarto
-          - href: 2-documents/index.qmd
-            text: Documents
+          - href: 1-rmarkdown-quarto/index.qmd
+            text: From R Markdow to Quarto
+          - href: 2-documents-slides/index.qmd
+            text: Documents and Slides
       - text: "---"
       - section: "In the Afternoon"
         contents:
-          - href: 3-presentations/index.qmd
-            text: Presentations
-          - href: 4-websites/index.qmd
-            text: Websites
+          - href: 3-websites-books/index.qmd
+            text: Websites and books
+          - href: 4-manuscripts/index.qmd
+            text: Manuscripts
+ 
+  page-footer:
+    left: "&copy; Copyright 2024, Mine Çetinkaya-Rundel + Andrew Bray + Charlotte Wickham"
+    center:
+      - icon: github
+        href: https://github.com/orgs/asa-quarto/repositories
+    right: "This page is built with 🖤 and [Quarto](https://quarto.org/)."
+    background: "#b61e2e" # RedHawk red
+
             
 format:
   html:
@@ -49,7 +60,7 @@ format:
     code-copy: true
     code-overflow: wrap
     mainfont: "Atkinson Hyperlegible"
-    toc: false
+    toc: true
   revealjs:
     author:
       - "Mine Çetinkaya Rundel"
@@ -64,8 +75,8 @@ format:
     chalkboard: false
     logo: "../images/logo.png"
     theme: style/slides.scss
-    footer: "[andrew.quarto.pub/nevada-asa](https://andrew.quarto.pub/nevada-asa)"
+    footer: "[mine.quarto.pub/cincinnati-asa](https://mine.quarto.pub/cincinnati-asa)"
 
 execute:
-  freeze: false
+  freeze: auto
   echo: true

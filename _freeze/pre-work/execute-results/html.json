@@ -1,0 +1,17 @@
+{
+  "hash": "5def9039595242d95748f3fb3f86cd81",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Pre-workshop instructions\"\nformat: html\n---\n\n\n\n\nPrior to the workshop, please complete the following steps:\n\n#### 1. Software\n\nDownload and install the latest versions of R, RStudio, and Quarto:\n\n-   R 4.2.3 or above: <https://cran.r-project.org>\n-   RStudio 2023.09.0+448 or above: <https://posit.co/download/rstudio-desktop>\n-   Quarto 1.4 or above: <https://quarto.org/docs/get-started>\n\n#### 2. R Packages\n\nInstall the following packages:\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\npkg_list <- c(\"tidyverse\", \"gt\", \"ggthemes\", \"palmerpenguins\", \n              \"quarto\", \"here\", \"usethis\")\ninstall.packages(pkg_list)\n```\n:::\n\n\n\n\n#### 3. Exercises\n\nDownload [`exercises.zip`](exercises.zip) at and unzip it on your Desktop or somewhere you can easily locate on your computer.",
+    "supporting": [
+      "pre-work_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

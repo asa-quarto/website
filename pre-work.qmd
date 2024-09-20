@@ -27,12 +27,4 @@ install.packages(pkg_list)
 
 #### 3. Exercises
 
-Download and open the exercises for this session. The easiest way is to run this line of R code at the console in RStudio.
-
-```{r}
-#| eval: false
-
-usethis::use_course("https://tinyurl.com/nevada-exercises")
-```
-
-If that doesn't work, you can download a zip file of the exercises [here](https://github.com/quarto-asa/exercises), then open the directory. The qmd files can be opened in RStudio.
+Download [`exercises.zip`](exercises.zip) at and unzip it on your Desktop or somewhere you can easily locate on your computer.

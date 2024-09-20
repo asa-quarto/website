@@ -942,14 +942,12 @@ head(penguins) |>
 :::
 :::
 
-## Your turn
+## On your own (later, after workshop)
 
-::: your-turn
+::: your-turn-later
 -   Open `tables-figures.qmd`.
 -   Follow the instructions in the document, then exchange one new thing you've learned with your neighbor.
 :::
-
-{{< countdown minutes=10 >}}
 
 # Quarto presentations
 
@@ -999,7 +997,7 @@ Pick up where we left off and
 -   Add [slide numbers](https://quarto.org/docs/presentations/revealjs/presenting.html#slide-numbers)
 :::
 
-{{< countdown minutes=10 >}}
+{{< countdown minutes=5 >}}
 
 ## Our turn
 

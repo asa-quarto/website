@@ -514,7 +514,7 @@ Tip with caption.
 -   Change the format to PDF and re-render.
 :::
 
-{{< countdown minutes=3 >}}
+{{< countdown minutes=5 >}}
 
 ## Footnotes
 

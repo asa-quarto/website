@@ -79,8 +79,9 @@ Please share:
 
 - Name
 - Professional affiliation
-- What do you use R and R Markdown for?
+- What do you want to use Quarto for?
 
+Or if you know everyone around you -- Are you good with setup steps?
 :::
 
 {{< countdown minutes=2 >}}

@@ -9,7 +9,7 @@ project:
 website:
   page-navigation: true
   title: "From R Markdown to Quarto"
-  description: "ASA Traveling Workshop, cincinnati Chapter"
+  description: "ASA Traveling Workshop, Kansas City Chapter"
   
   repo-url: https://github.com/asa-quarto/website
   repo-actions: [edit, issue]
@@ -32,7 +32,7 @@ website:
       - section: "In the Morning"
         contents:
           - href: 1-rmarkdown-quarto/index.qmd
-            text: From R Markdow to Quarto
+            text: From R Markdown to Quarto
           - href: 2-documents-slides/index.qmd
             text: Documents and slides
       - text: "---"
@@ -75,7 +75,7 @@ format:
     chalkboard: false
     logo: "../images/logo.png"
     theme: style/slides.scss
-    footer: "[mine.quarto.pub/cincinnati-asa](https://mine.quarto.pub/cincinnati-asa)"
+    footer: "[andrew.quarto.pub/kc-asa](https://andrew.quarto.pub/kc-asa)"
 
 execute:
   freeze: auto
